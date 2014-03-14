@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat Around</string>
+    <string name="dobYear_prompt">Year</string>
+    <string name="gender_prompt">Gender</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_mapsetting">Map Setting</string>
+    <string name="menu_mapsetting_gals">show Gals only</string>
+    <string name="menu_mapsetting_guys">show Guys only</string>
+    <string name="menu_mapsetting_both">show Both genders</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="send_message">Send</string>
+    <string name="no_correspondance">No messages yet</string>
+	<string name="createorupdateuser_enterInfo_lbl">Profile:</string>
+	<string name="createorupdateuser_userName_lbl">Nick Name</string>
+	<string name="createorupdateuser_sex_lbl">Gender</string>
+	<string name="createorupdateuser_male_lbl">Guy</string>
+	<string name="createorupdateuser_female_lbl">Gal</string>
+	<string name="createorupdateuser_dobYear_lbl">Year born</string>
+	<string name="createorupdateuser_status_lbl">About yourself</string>
+	<string name="createorupdateuser_avatar_lbl">Your avatar</string>
+	<string name="correspondencesview_sendmessage">Send Message</string>
+	<string name="splashscreen_button_startapp">Start Chat Around</string>
+	<string name="splashscreen_button_tutorial">Tutorial</string>
+	<string name="splashscreen_button_credits">Credits</string>
+	<string name="splashscreen_button_exitapp">Exit</string>
+</resources>

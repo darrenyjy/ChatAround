@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/createorupdateuser_enterInfo_lbl" />
+	    
+	    <TextView android:text="@string/createorupdateuser_userName_lbl"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"/>
+		<EditText
+			android:id="@+id/createorupdateuser_userName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	     		
+	    <TextView
+			android:text="@string/createorupdateuser_sex_lbl"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<RadioGroup android:id="@+id/createorupdateuser_rdbGpSex"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal" >
+	       <RadioButton android:id="@+id/createorupdateuser_rdbSexMale"
+	           android:layout_width="wrap_content" 
+	           android:layout_height="wrap_content"
+	           android:text="@string/createorupdateuser_male_lbl" />
+	       <RadioButton android:id="@+id/createorupdateuser_rdbSexFemale"
+	           android:layout_width="wrap_content" 
+	           android:layout_height="wrap_content"
+	           android:layout_marginLeft="50dip"        
+	           android:text="@string/createorupdateuser_female_lbl" />
+	 	</RadioGroup>
+	
+	   	<TextView
+	       	android:text="@string/createorupdateuser_dobYear_lbl"
+	       	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	       	android:padding="3dip" />
+		<Spinner 
+			android:id="@+id/createorupdateuser_dobYear"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:drawSelectorOnTop="true"
+			android:prompt="@string/dobYear_prompt" />
+			
+	    <TextView
+	     	android:text="@string/createorupdateuser_status_lbl"
+	     	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	        android:padding="3dip" />
+		<EditText
+			android:id="@+id/createorupdateuser_status"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:text="@string/createorupdateuser_avatar_lbl"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	        android:padding="3dip" />
+		<Gallery xmlns:android="http://schemas.android.com/apk/res/android" 
+	        android:id="@+id/createorupdateuser_icongallery"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content" />
+	
+	  	<Button
+	        android:id="@+id/createOrUpdateUser_button"
+	        android:layout_width="fill_parent"
+	  		android:layout_height="30dip"
+	  		android:background="@drawable/button_back1"
+	        android:src="@drawable/android_button"
+	        android:text="Done" />
+	</LinearLayout>
+</ScrollView>

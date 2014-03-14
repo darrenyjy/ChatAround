@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:id="@+id/credits_heading"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="The people behind Chat Around"
+		android:textSize="20dip"/>
+	
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Creators and Developers"
+		android:textSize="15dip" 
+		android:paddingTop="20dip"/>
+		
+	<TextView android:id="@+id/credits_name1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Ninad Divadkar"
+		android:textSize="15dip" 
+		android:textColor="#CFECEC"/>
+		
+	<TextView android:id="@+id/credits_name2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="ChongLim Kim"
+		android:textSize="15dip"
+		android:textColor="#CFECEC" />
+		
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Avatars provided by" 
+		android:textSize="15dip"
+		android:paddingTop="20dip"/>
+	<TextView android:id="@+id/credits_name3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="www.deleket.com" 
+		android:textSize="15dip"
+		android:textColor="#CFECEC"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|bottom"
+    android:background="@drawable/centralpark" >
+      <!-- image posted by Techno -->
+      <!-- http://androidcommunity.com/forums/f12/high-quality-g1-wallpapers-png-format-13850/ -->
+	<TextView
+        	android:id="@+id/splashscreen_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Chat Around"
+            android:textSize="25dip"
+            android:textColor="#FFCC00"
+            android:gravity="center"
+            android:layout_weight="1" />
+    <Button android:id="@+id/startapp_button"
+    		android:layout_width="100dip"
+            android:layout_height="50dip"
+            android:background="@drawable/button_back1"
+    		android:text="@string/splashscreen_button_startapp" />
+    <Button android:id="@+id/tutorial_button"
+    		android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:background="@drawable/button_back1"
+    		android:text="@string/splashscreen_button_tutorial" />
+    <Button android:id="@+id/splashscreen_credits_button"
+    		android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:background="@drawable/button_back1"
+    		android:text="@string/splashscreen_button_credits" />
+    <Button android:id="@+id/exitapp_button"
+    		android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:background="@drawable/button_back1"
+			android:text="@string/splashscreen_button_exitapp"
+			android:layout_marginBottom="20dip"/>
+</LinearLayout>

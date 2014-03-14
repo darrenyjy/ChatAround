@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/view_messages"
+          android:title="@string/menu_messages" />
+    <item android:id="@+id/profile"
+          android:title="@string/menu_profile" />
+    <item android:id="@+id/mapsetting"
+          android:title="@string/menu_mapsetting" >
+        <menu>
+        	<group android:checkableBehavior="single">
+        		<item android:id="@+id/mapsetting_gals" android:title="@string/menu_mapsetting_gals" />
+        		<item android:id="@+id/mapsetting_guys" android:title="@string/menu_mapsetting_guys" />
+                <item android:id="@+id/mapsetting_both" android:title="@string/menu_mapsetting_both" />
+        	</group>
+        </menu>
+    </item>  
+    <item android:id="@+id/feedback"
+          android:title="@string/menu_feedback" />
+</menu>
